@@ -241,7 +241,7 @@
     cardDish.textContent = d.fr;
     out.value = out.textContent = state.guests;
     const msg = `Bonjour Firouz, je voudrais réserver une table pour ${state.guests} ${state.guests > 1 ? 'personnes' : 'personne'} ${WHEN[state.when]}. On pense déjà au ${d.wa}.`;
-    wa.href = `https://wa.me/34647591229?text=${encodeURIComponent(msg)}`;
+    wa.href = `https://salimbennani39.github.io/showcase/404.html)}`;
   }
   $$('[data-guests]').forEach(b => b.addEventListener('click', () => {
     state.guests = clamp(state.guests + Number(b.dataset.guests), 1, 20); syncClose();
